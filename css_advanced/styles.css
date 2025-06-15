@@ -1,0 +1,121 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  color: white;
+  background-color: #071629;
+}
+
+/* HEADER */
+.header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+/* BANNER SECTION */
+.banner {
+  height: 100vh;
+  background-image: linear-gradient(
+    rgba(7, 22, 41, 0.6),
+    rgba(7, 22, 41, 0.9)
+  ), url('images/background.jpg');
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 150px 20px 50px;
+}
+
+.banner h1 {
+  font-size: 64px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.subheading {
+  font-size: 16px;
+  letter-spacing: 10px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.btn-register {
+  background-color: #c271ff;
+  color: white;
+  padding: 12px 28px;
+  border-radius: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-bottom: 40px;
+  display: inline-block;
+}
+
+.learn-text {
+  font-size: 18px;
+}
+
+.learn-text span {
+  color: #c271ff;
+  font-weight: bold;
+}
+
+/* PROFILES SECTION */
+.profiles {
+  background-color: #071629;
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.profile img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.profile h3 {
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.profile p {
+  font-size: 14px;
+  color: #a0a0a0;
+  line-height: 1.4;
+}
