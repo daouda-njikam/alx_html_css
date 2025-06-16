@@ -119,3 +119,48 @@ body {
   color: #a0a0a0;
   line-height: 1.4;
 }
+.quote-section {
+  background-color: #c271ff; /* remplace avec la couleur exacte du Figma si différente */
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 900px;
+  margin: 0 auto;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.quote-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.quote-text {
+  max-width: 500px;
+  color: white;
+  text-align: left;
+}
+
+.quote-message {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.quote-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.quote-title {
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.8);
+}
