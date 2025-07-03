@@ -1,0 +1,55 @@
+/* Section What we do */
+.what-we-do {
+  padding: 4rem 2rem;
+  background-color: #f5f5f5;
+  color: #333;
+  text-align: center;
+}
+
+.what-we-do h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #222;
+}
+
+.services-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.service {
+  background: white;
+  border-radius: 8px;
+  padding: 2rem;
+  flex: 1 1 220px;
+  max-width: 250px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.service i {
+  font-size: 3rem;
+  color: var(--main-color);
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+/* Exemple pour icônes personnalisées si tu utilises font-face */
+.icon-browser::before {
+  content: "\e900"; /* code unicode à adapter selon ta font */
+}
+
+.icon-mobile::before {
+  content: "\e901";
+}
+
+.icon-design::before {
+  content: "\e902";
+}
+
+.icon-support::before {
+  content: "\e903";
+}
