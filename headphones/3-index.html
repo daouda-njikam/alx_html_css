@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Headphones</title>
+  <link rel="stylesheet" href="3-styles.css" />
+</head>
+<body>
+  <!-- Image ajoutée pour test (facultatif) -->
+  <img src="images/headphones1.jpg" alt="Hero background" style="display: none;" />
+
+  <header class="hero">
+    <div class="container">
+      <nav class="navbar">
+        <div class="logo">
+          <img src="images/logo_headphones.png" alt="Headphones logo" />
+        </div>
+        <ul class="nav">
+          <li><a href="#what-we-do">what we do</a></li>
+          <li><a href="#our-results">our results</a></li>
+          <li><a href="#contact-us">contact us</a></li>
+        </ul>
+      </nav>
+
+      <div class="hero-text">
+        <h1>Lorem ipsum dolor set amet lorem ipsum</h1>
+        <h2>Lorem ipsum dolor set amet lorem ipsum dolor set</h2>
+        <button class="cta">CALL TO ACTION</button>
+        <p class="description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <!-- Section What we do -->
+  <section id="what-we-do" class="what-we-do">
+    <div class="container">
+      <h2>What we do...</h2>
+      <div class="services-container">
+        <div class="service">
+          <i class="icon-browser"></i>
+          <h3>Web Development</h3>
+          <p>We build responsive and modern websites.</p>
+        </div>
+        <div class="service">
+          <i class="icon-mobile"></i>
+          <h3>Mobile Apps</h3>
+          <p>Creating smooth and intuitive mobile experiences.</p>
+        </div>
+        <div class="service">
+          <i class="icon-design"></i>
+          <h3>UI/UX Design</h3>
+          <p>Designing user-friendly and aesthetic interfaces.</p>
+        </div>
+        <div class="service">
+          <i class="icon-support"></i>
+          <h3>Support & Maintenance</h3>
+          <p>Providing ongoing support for your projects.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Our results -->
+  <section id="our-results" class="our-results">
+    <div class="container">
+      <h2>Our results</h2>
+      <div class="results-container">
+        <div class="result">
+          <h3>120+</h3>
+          <p>Projects completed</p>
+        </div>
+        <div class="result">
+          <h3>80%</h3>
+          <p>Customer satisfaction</p>
+        </div>
+        <div class="result">
+          <h3>15</h3>
+          <p>Awards won</p>
+        </div>
+        <div class="result">
+          <h3>10k</h3>
+          <p>Hours worked</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Contact us -->
+  <section id="contact-us" class="contact-us">
+    <div class="container">
+      <h2>Contact us</h2>
+      <form class="contact-form" action="#" method="POST" novalidate>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your email" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Write your message here" required></textarea>
+
+        <button type="submit" class="cta">Send Message</button>
+      </form>
+    </div>
+  </section>
+</body>
+</html>
