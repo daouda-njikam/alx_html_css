@@ -1,0 +1,71 @@
+/* BASE NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0e1a2b;
+  color: white;
+  padding: 1rem 2rem;
+  position: relative;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* HAMBURGER (hidden by default) */
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+/* RESPONSIVE MENU BELOW 480px */
+@media (max-width: 480px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 2rem;
+    background-color: #0e1a2b;
+    width: 150px;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  }
+
+  .nav-links.show {
+    display: flex;
+    animation: fadeIn 0.3s ease-in-out;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
+
+/* Smooth animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
